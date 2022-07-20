@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Dancing+Script&family=Gentium+Book+Plus&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700&family=Nunito:wght@400;500;700;900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Serif:ital,wght@0,700;1,400&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@1,300&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Dancing+Script&family=Gentium+Book+Plus&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700&family=Nunito:wght@400;500;700;900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Serif:ital,wght@0,700;1,400&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@1,300&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /* ---------
@@ -25,13 +31,15 @@
 }
 
 .show-title h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin-bottom: 2px;
+    line-height: 1.2;
 }
 
 .show-title p{
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: 30px;
+    color: #ccc;
 }
 
 .btn{
@@ -86,7 +94,7 @@
 
 .box a{
     color: black;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration:none ;
     background-color: white;
 }
@@ -97,10 +105,12 @@
     padding: 10px 0;
     text-align: center;
     border-radius: 5px;
+    font-weight: 500;
 }
 
 .box .blog-btn{
     background-color:#DD0000;
+    color: white;
 }
 
 .transfer-live{
@@ -135,13 +145,17 @@
 }
 
 .transfer-live .live .live-des h3{
-    font-size: 19px;
+    font-size: 14px;
 }
 
 .transfer-live .live .live-des .details{
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.details div{
+    color: #444;
 }
 
 
@@ -153,17 +167,19 @@ footer{
     background-color: #161616;
     color: white;
     margin-top: 100px;
+    
 }
 
 .container .goal{
     text-align: center;
     font-size: 3rem;
-    margin-top: 80px;
+    margin-top: 50px;
+    font-family: 'PT Serif', serif;
 }
 
 hr{
     border: 1px solid rgb(36, 36, 36);
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .lists .list{
@@ -175,11 +191,13 @@ hr{
 
 .lists ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 50px;
 }
 
 .lists ul li a{
     text-decoration: none;
     color: #ccc;
+    font-family: 'Roboto', sans-serif;
 }
 
