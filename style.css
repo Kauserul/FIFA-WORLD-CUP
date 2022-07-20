@@ -201,3 +201,55 @@ hr{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+
+/* ---------------
+    udpate match
+--------------- */
+
+.update-match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.update-match .countrys{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.countrys {
+    font-weight: 700;
+}
+
+.match-time{
+    border: 1px solid rgb(238, 238, 238);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.match-info h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.match-info p {
+    font-size: 15px;
+    color: #444;
+    margin-top: 7px;
+}
+
+.flag{
+    width: 80px;
+}
+
+.flag img{
+    width: 100%;
+}
+
+.match-info{
+    text-align: center;
+}
+
