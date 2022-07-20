@@ -92,7 +92,7 @@ body{
 }
 
 .boxes .box{
-    width: 225px;
+    width: 230px;
 }
 
 .box a{
@@ -131,7 +131,7 @@ body{
 }
 
 .transfer-live .live .live-banner{
-    width: 250px;
+    width: 279px;
 }
 
 .transfer-live .live .live-banner img{
@@ -166,6 +166,21 @@ body{
 
 .details div{
     color: #444;
+}
+
+.view-all{
+    text-align: center;
+    display: none;
+}
+
+.view{
+    padding: 15px 45px;
+    margin-top: 40px;
+    background: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
 }
 
 
@@ -273,12 +288,11 @@ hr{
     media quary 
 ----------------*/
 
-@media only screen and (max-width:668px){
+@media only screen and (max-width:576px){
 
-    /* .container{
-        width: 100%;
-        padding: 5%;
-    } */
+    .container{
+        padding: 2% 0;
+    }
 
     .greatest-show{
         flex-direction: column;
@@ -317,17 +331,15 @@ hr{
         border: 1px solid #ddd;
     }
 
-    .transfer-live{
+    .transfer-live, .update-match{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .transfer-live .live .live-banner{
+    .transfer-live .live .live-banner, .flag{
         width: 100%;
     }
 
-
-
-    .transfer-live{
+    .transfer-live, .update-match{
     width: 450px;
     }
 
@@ -346,6 +358,73 @@ hr{
 
     footer{
         width: 669px;
+    }
+
+    .footer-div{
+        width: 300px;
+        text-align: center;
+        margin: auto;
+    }
+
+}
+
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .container{
+        width: 100%;
+        padding: 3% 0;
+    }
+
+    .all-match{
+        flex-direction: column;
+    }
+
+    .boxes{
+        background-color: #fff;
+        width: 600px;
+        padding-bottom: 0px;
+        height: 80px;
+    }
+
+    .boxes .box{
+        display: flex;
+    }
+
+    .box a{
+    margin-right: 30px;
+    margin-bottom: 0px;
+    }
+
+    .box a div{
+    width: 200px;
+    border: 1px solid #ddd;
+    }
+
+    .transfer-live, .update-match{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .transfer-live .live .live-banner, .flag{
+        width: 100%;
+    }
+
+    .transfer-live, .update-match{
+    width: 700px;
+    }
+
+    .responsive-none{
+        display: none;
+    }
+
+    .view-all{
+        display: block;
+        margin-left: 122px;
+        width: 470px;
+    }
+
+    footer{
+        width: 834px;
     }
 
     .footer-div{
