@@ -119,6 +119,12 @@ body{
     grid-column-gap: 30px;
     grid-row-gap:  30px;
     width: 900px;
+    
+}
+
+.transfer-live .live{
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }
 
 .transfer-live .live .live-banner{
@@ -131,7 +137,6 @@ body{
 
 .transfer-live .live .live-des{
     padding: 10px 15px;
-    border: 1px solid #ddd;
     border-top: none;
     margin-top: -2px;
 }
@@ -253,3 +258,56 @@ hr{
     text-align: center;
 }
 
+
+
+
+
+
+/* -------------
+    media quary 
+----------------*/
+
+@media only screen and (max-width:668px){
+
+    .container{
+        width: 100%;
+    }
+
+    .greatest-show{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .show-title{
+        text-align: center;
+    }
+
+    .show-banner{
+        width: 300px;
+    }
+
+    .show-banner img{
+        width: 100%;
+    }
+
+    .all-match{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .boxes{
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .transfer-live{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .live{
+        width: 250px;
+    }
+
+
+    
+}
