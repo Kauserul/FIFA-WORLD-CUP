@@ -277,6 +277,7 @@ hr{
     .greatest-show{
         flex-direction: column;
         padding: 18px;
+        width: 100%;
     }
 
     .show-title{
@@ -338,6 +339,12 @@ hr{
     }
 
     footer{
-        width: 100%;
+        width: 620px;
+    }
+
+    .footer-div{
+        width: 300px;
+        text-align: center;
+        margin: auto;
     }
 }
