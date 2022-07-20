@@ -84,20 +84,23 @@
     width: 225px;
 }
 
-.all-match .boxes .box div{
-    padding: 10px 0px;
-    background-color: #fff;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    text-align: center;
-    
-}
-
-.all-match .boxes .box div a{
-    text-decoration: none;
+.box a{
     color: black;
     font-size: 22px;
+    text-decoration:none ;
+    background-color: white;
+}
+
+.box div{
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box .blog-btn{
+    background-color:#DD0000;
 }
 
 .transfer-live{
