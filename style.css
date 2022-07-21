@@ -208,7 +208,7 @@ footer{
 }
 
 hr{
-    border: 1px solid rgb(36, 36, 36);
+    border: 1px solid rgb(146, 146, 146);
     margin-bottom: 40px;
 }
 
@@ -303,7 +303,7 @@ hr{
     media quary 
 ----------------*/
 
-@media only screen and (max-width:576px){
+@media only screen and (max-width:668px){
 
     .container{
         padding: 3% 6%;
@@ -390,7 +390,7 @@ hr{
 }
 
 
-@media only screen and (min-width:577px) and (max-width:768px){
+@media only screen and (min-width:669px) and (max-width:992px) {
 
     .container{
         width: 100%;
@@ -398,7 +398,7 @@ hr{
     }
 
     .greatest-show{
-        width: 115%;
+        width: 90%;
     }
 
     .all-match{
