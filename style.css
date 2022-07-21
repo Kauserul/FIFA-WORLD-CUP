@@ -24,11 +24,10 @@ body{
     background-color: #3F4E4F;
     color: white;
     border-radius: 30px;
-    
 }
 
 .show-title{
-    width: 500px;
+    width: 50%;
     padding: 50px;
     padding-right: 0;
 }
@@ -66,7 +65,7 @@ body{
 }
 
 .show-banner{
-    width: 581px;
+    width: 50%;
     height: 613px;
     padding-right:50px ;
 }
@@ -126,17 +125,17 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap:  30px;
-    width: 900px;
-    
+    width: 80%;
 }
 
 .transfer-live .live{
     border: 1px solid #ddd;
     border-radius: 10px;
+    width: 250px;
 }
 
 .transfer-live .live .live-banner{
-    width: 279px;
+    width: 250px;
 }
 
 .transfer-live .live .live-banner img{
@@ -307,13 +306,13 @@ hr{
 @media only screen and (max-width:576px){
 
     .container{
-        padding: 2% 5%;
+        padding: 3% 6%;
     }
 
     .greatest-show{
         flex-direction: column;
         padding: 18px;
-        width: 100%;
+        width: 580px;
     }
 
     .show-title{
@@ -323,14 +322,14 @@ hr{
     }
 
     .show-banner{
-        width: 100%;
+        width: 350px;
         margin: auto;
     }
 
     .show-banner img{
         width: 100%;
-        margin: auto;
         margin-left: 20px;
+        height: 103%;
     }
 
     .all-match{
@@ -357,6 +356,7 @@ hr{
 
     .transfer-live, .update-match{
     width: 450px;
+    margin-left: 128px;
     }
 
     hr{
@@ -397,19 +397,24 @@ hr{
         padding: 3% 6%;
     }
 
+    .greatest-show{
+        width: 115%;
+    }
+
     .all-match{
         flex-direction: column;
     }
 
     .boxes{
         background-color: #fff;
-        width: 600px;
+        width: 770px;
         padding-bottom: 0px;
         height: 80px;
     }
 
     .boxes .box{
         display: flex;
+        margin-left: 35px;
     }
 
     .box a{
@@ -431,7 +436,11 @@ hr{
     }
 
     .transfer-live, .update-match{
-    width: 700px;
+    width: 820px;
+    }
+
+    .transfer-live .live{
+        width: 400px;
     }
 
     .responsive-none{
@@ -441,11 +450,11 @@ hr{
     .view-all{
         display: block;
         margin-left: 122px;
-        width: 470px;
+        width: 576px;
     }
 
     footer{
-        width: 834px;
+        width: 935px;
     }
 
     .footer-div{
