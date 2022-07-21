@@ -21,7 +21,7 @@ body{
 .greatest-show{
     display: flex;
     align-items: center;
-    background-color: #161616;
+    background-color: #3F4E4F;
     color: white;
     border-radius: 30px;
     
@@ -53,6 +53,11 @@ body{
     color: white;
     font-size: 20px;
     margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
 }
 
 .btn i{
@@ -86,7 +91,7 @@ body{
 .boxes{
     width: 220px;
     height: 200px;
-    background-color: #161616;
+    background-color: #3F4E4F;
     padding: 30px;
     border-radius: 10px;
 }
@@ -189,7 +194,7 @@ body{
     footer 
 -------------*/
 footer{
-    background-color: #161616;
+    background-color: #354259;
     color: white;
     margin-top: 100px;
     
@@ -225,6 +230,17 @@ hr{
     text-decoration: none;
     color: #ccc;
     font-family: 'Roboto', sans-serif;
+}
+
+.icons {
+    text-align: center;
+    display: none;
+}
+
+.icons i {
+    margin-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -291,7 +307,7 @@ hr{
 @media only screen and (max-width:576px){
 
     .container{
-        padding: 2% 0;
+        padding: 2% 5%;
     }
 
     .greatest-show{
@@ -366,6 +382,11 @@ hr{
         margin: auto;
     }
 
+    .icons{
+        display: block;
+        margin-top: 20px;
+    }
+
 }
 
 
@@ -373,7 +394,7 @@ hr{
 
     .container{
         width: 100%;
-        padding: 3% 0;
+        padding: 3% 6%;
     }
 
     .all-match{
